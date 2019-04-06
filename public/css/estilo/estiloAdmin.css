@@ -1,0 +1,191 @@
+/*
+.form-control{
+	border: none;
+	border-bottom: solid 2px black;
+	border-radius:0px;
+}
+.form-control:hover{
+	border: none;
+	border-bottom: solid 3px blue;
+	border-radius:0px;
+}
+*/
+
+
+.btn-normal{
+	padding: 5px;
+	text-align: center;
+	width: 40px;
+	border:none;
+	background: #4b81b4;
+	color: white;
+	font-size:20px;	
+}
+.btn-normal:hover{
+	background: white;
+	box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.3);
+	color:	#4b81b4;
+}
+
+
+.btn-3d{
+	box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	width: 50px;
+    height: 50px;
+	text-align: center;
+	border:none;
+	background: #243e56;
+	color: white;
+	font-size:25px;
+}
+.btn-3d:hover{
+	background: white;
+	box-shadow: 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+	color:#243e56;
+}
+
+
+
+.btn-3d-G{
+	box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	width: 200px;
+    height: 200px;
+	text-align: center;
+	border:none;
+	background: blue;
+	color: white;
+	font-size:100px;
+}
+.btn-3d-G:hover{
+	box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.3);
+	background: white;
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+/* ============= Estilos home ============= */
+.tile{
+    display: inline-block;
+    width: 220px;
+    height: auto;
+    border: 1px solid #E1E1E1;
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+}
+.tile-icon,.tile-num{
+    height: 110px;
+    line-height: 110px;
+    position: relative;
+}
+.tile-icon{
+    color: #B71C1C;
+    border-bottom: 1px solid #E1E1E1;
+    font-size: 50px;
+}
+.tile-icon i{
+    transition: all .3s ease-in-out;
+}
+.tile-num{
+    background-color: #F5F5F5;
+    font-size: 40px;
+}
+.tile-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 7;
+    padding: 0 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #E1E1E1;
+    max-width: 95%;
+    min-width: 60%;
+    width: auto;
+}
+.tile:hover .tile-icon i{
+    transform: scale(1.5);
+    color: #303F9F;
+}
+
+
+
+
+
+
+/* Botões, icones, etc */
+
+.icone-nav{
+    font-size: 36px;
+    
+}
+.icone-nav :hover{
+	color: #ff8000;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.linha-vertical {
+	height: 100%;/*Altura da linha*/
+	border-right: 2px solid gray;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  }
+
+
+.img-circular{
+
+	border-radius:50%;
+	border:5px solid white;
+	width:200px;
+	height:200px;
+	box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.campo-texto-arredondado{
+	border-radius: 20px;
+	
+}
+.botao-pesquisa{
+	border-radius: 0px 20px 20px 0px;
+}
+
+.box-sombra{
+
+	box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+.box-relatorio{
+	
+	width: 200px;
+	height: 200px;
+	border:2px solid gainsboro;
+	margin-left: 20px;
+	font-size:25px;
+	
+}
+
+.row-relatorio {
+
+}
+.row-relatorio :hover{
+	box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+.row-relatorio a .box-relatorio :hover{
+	box-shadow:none;
+}

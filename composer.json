@@ -1,0 +1,23 @@
+{
+	"name": "son/mvc",
+	"require": {
+		"php": ">=5.3"
+	},
+	
+	"minimum-stability": "alpha",
+	"authors": [
+		{
+			"name": "Leo",
+			"email": "leo.mdrs06@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"SON\\" : "vendor/SON/",
+			"App\\" : "App/"
+		}
+	},
+	"config": {
+		"bin-dir": "bin"
+	}
+}

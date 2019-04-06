@@ -1,0 +1,72 @@
+body#LoginForm{ background-image:url('../../Imagens/background.jpg'); background-repeat:no-repeat; background-position:center; background-size:cover;}
+
+.fundo{
+	/*background: rgb(36, 62, 86, 0.4);*/
+	background: rgb(255, 255, 255, 0);
+	width: 100%;
+	height: 100%;
+}
+
+
+.form-heading {
+	color:#fff;
+	font-size:23px;
+}
+
+.login-form .form-control { /*Campos do login*/
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.main-div {
+  background: rgb(36, 62, 86, 0.9);  
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 30px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{
+	text-align:center;
+	padding-top: 15%;
+}
+
+
+.login-form  .btn.btn-primary {
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+
+
+
+
+.panel p {
+	color: rgb(255, 255, 255);
+	font-size:20px;
+	margin-bottom:30px;
+	line-height:24px;
+}
+
+.esqueceu {
+  text-align: left;
+  margin-bottom:30px;
+}
+.esqueceu a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
+
+
